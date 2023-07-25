@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  font-family: 'Aclonica', sans-serif !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+img {
+  width: 200px !important;
+  height: 250px !important;
+}
+
+
+
+
+.Header{  
+  background-color: #232323 !important;
+  width: 100% !important;
+  border-bottom: solid 1px black;
+}
+
+.Navegacion{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 10px !important;
+  padding-right: 30px !important;
+  
+}
+
+.LogoEmpresa{
+  display: flex !important;
+  align-items: center !important;
+  gap: 20px !important;
+  letter-spacing: 10px !important;
+}
+
+.ImgLogo{
+  height: 70px !important;
+  width: 70px !important;
+}
+
+.Menu{
+  display: flex !important;
+  gap: 50px !important;
+  list-style: none !important;
+}
+
+.Interfaz{
+  letter-spacing: 3px !important;
+  font-size: large !important;
+  font-size: 20px !important;
+}
+
+.Interfaz:hover{
+  font-size: 22px !important;
+  transition: 2s !important;
+}
+
+.Marca{
+  font-size: 25px !important;
+}
+.Marca:hover{
+  font-size: 28px !important;
+  transition: 2s !important;
+}
+
+
+
+
+.ContenedorImagenes{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+  grid-template-rows: 300px !important;
+}
+
+.CajaImg{
+  background-color: orange !important;  
+}
+
+.Imagen{
+  width: 100% !important; 
+  height: 100% !important; 
+}
+
+
+
+
+
+.Main{
+  background-color: white !important;
+}
+
+.Grilla{
+  display: grid !important;
+  grid-template-columns: 350px 1fr 350px !important;
+  grid-template-rows: 45px 450px !important;
+  grid-template-areas: 
+  "Subtitulo  Subtitulo   Subtitulo "
+  "Imagen1    Texto       Imagen2" 
+}
+
+.Subtitulo{
+  grid-area: Subtitulo !important;
+  grid-column: 1/4 !important;
+  padding: 5px !important;
+  text-align: center !important;
+  background-color: orange !important;
+  letter-spacing: 4px !important;
+}
+.Sub{
+  color: black;
+}
+
+.Imagen1{
+  grid-area: Imagen1 !important;
+  background-color: orange !important;
+}
+
+.Texto{
+  grid-area: Texto;
+  text-align: center !important;
+  padding: 20px !important;
+  padding-top: 30px !important;
+  background-color: #232323 !important;
+  color: white !important;
+  font-size: 20px !important;
+  overflow: hidden;
+}
+
+
+
+.Enlace{
+  color: rgb(50, 50, 232) !important;
+}
+
+.Enlace:hover{
+  font-size: 25px !important;
+  transition: 2s !important;
+}
+
+.Imagen2{
+  grid-area: Imagen2 !important;
+  background-color: orange !important;
+}
+
+.ImgGrilla{
+ height: 100% !important;
+ width: 100% !important;
+ display: block;
+}
+
+
+
+.ContenedorRegalo{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr !important;
+  grid-template-areas: 
+  "Texto1  ImagenReg  Texto2";
+}
+
+.Texto1{
+  grid-area: Texto1 !important;
+  text-align: center !important;
+  padding: 20px !important;
+  padding-top: 170px !important;
+  background-color: orange !important;
+  color: black !important;
+  font-size: 20px !important;
+}
+
+
+ .Texto2{
+  grid-area: Texto2 !important;
+  text-align: center !important;
+  padding: 20px !important;
+  padding-top: 170px !important;
+  background-color: orange !important;
+  color: black !important;
+  font-size: 20px !important;
+}
+
+
+ .ContenedorFooter{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr !important;
+  background-color: #232323 !important;
+  color: white !important;
+  border-top: solid 1px black;
+}
+
+.CajitaFooter1{
+  text-align: center !important;
+  padding: 20px !important;
+}
+
+.CajitaFooter2{
+  text-align: center !important;
+  padding: 20px !important;
+
+}
+
+.imgFooter{
+  height: 100px !important;
+  width: 150px !important;
+}
+
+.CajitaFooter3{
+  text-align: center !important;
+  padding: 20px !important;
+}
+
+.Info{
+  list-style: none !important;
+}
+
+.GrillaMain{
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  grid-template-rows: 1fr 1fr 1fr !important;
+  grid-template-areas: 
+  "Mision"
+  "Vision"
+  "Objetivo";
+}
+
+.Mision{
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: #232323 !important;
+  grid-area: 1/1 !important;
+  align-items: center !important;
+}
+
+.TextoMisionObjetivo{
+ font-size: 20px !important;
+ color: white !important;
+ list-style: none !important;
+}
+
+.TextoVision{
+  font-size: 20px !important;
+  color: black;
+ }
+
+.Vision{
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: orange !important;
+  grid-area: 2/1 !important;
+  align-items: center !important;
+}
+.Objetivo{
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: #232323 !important;
+  grid-area: 3/1 !important;
+  align-items: center !important;
+}
+
+
+.ContenedorMenu{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  grid-template-rows: 1fr 1fr 1fr !important;
+ }
+
+.CajaMenuIzqT{
+  display: flex !important;
+  justify-content: end !important;
+  background-color: orange !important;
+}
+
+.CajaMenuIzqPB{
+  display: flex !important;
+  justify-content: end !important;
+  background-color: #232323 !important;
+}
+
+.TituloPBLH{
+ background-color: orange !important;
+ text-align: center !important;
+}
+
+.TituloTS{
+  background-color: #232323 !important;
+  text-align: center !important;
+  color: white !important;
+ }
+
+
+.CajaMenuDerLH{
+  display: flex !important;
+  justify-content: start !important;
+  background-color: #232323 !important;
+}
+
+.CajaMenuDerS{
+  display: flex !important;
+  justify-content: start !important;
+  background-color: orange !important;
+}
+
+.Grilla1{
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr 0.5fr !important;
+  grid-template-areas: 
+  "TituloImg1 TituloImg2 TituloImg3"
+  "TextoGal   TextoGal   TextoGal";
+}
+
+.TituloImg1{
+text-align: center !important;
+}
+
+.TituloImg2{
+  text-align: center !important;
+}
+
+.TituloImg3{
+  text-align: center !important;
+}
+
+.TextoGal{
+  text-align: center !important;
+  background-color:  #232323 !important;
+  grid-column: 1/4 !important;
+}
+.Letra{
+  font-size: 20px !important;
+  color: white;
+}
+
+.Tit{
+  color: black !important;
+  text-align: center !important;
+  background-color: orange !important;
+}
+
+.TituloFCR{
+  background-color: orange !important;
+  text-align: center !important;
+}
+
+.ContenedorFotografias{
+  background-color: #232323 !important; 
+  text-align: center !important;
+}
+
+.ContenedorContacto1{
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.ContenedorContac{
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: #232323 !important;
+}
+
+.ContenedorRedesSociales{
+  background-color: orange !important; 
+}
+
+.TextoContacto{
+  color: white !important;
+  font-size: larger !important;
+ 
+}
+
+.Barra{
+  background-color: orange !important;
+  width: 550px !important;
+  height: 25px !important;
+  border-radius: 10px !important;
+}
+
+.Barra1{
+  background-color: orange !important;
+  width: 550px !important;
+  height: 150px !important;
+  border-radius: 10px !important;
+}
+
+.CajaRed{
+ display: flex !important;
+}
+
+.ImgRedes{
+  width: 50px !important;
+  height: 50px !important;
+}
